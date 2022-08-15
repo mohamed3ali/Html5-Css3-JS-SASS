@@ -532,7 +532,7 @@ font-weight: bold;
 }
 
 .contact-form {
-  background-color: #1abc9c;
+  background-color: #bcae1a;
   position: relative;
 }
 
@@ -617,6 +617,7 @@ textarea.input {
   padding: 0 0.4rem;
   color: #fafafa;
   font-size: 0.9rem;
+  background-color: #bcae1a;
   font-weight: 400;
   pointer-events: none;
   z-index: 1000;
