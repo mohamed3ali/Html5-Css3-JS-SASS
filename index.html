@@ -21,7 +21,7 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list  animate__animated animate__flipInX" data-wow-duration="6s">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link active-link">Home</a>
+                    <a href="#home" class="nav__link active-link ">Home</a>
                 </li>
                 <li class="nav__item">
                     <a href="#about" class="nav__link">About us</a>
@@ -52,24 +52,33 @@
  <main class="main ">
     <!--====HOME=========-->
 <section class="home section" id="home">
-    <div class="home__container container grid wow fadeInLeft" data-wow-duration="6s">
+    <div class="home__container container grid ">
+      <div class="wow rotateOut" data-wow-duration="6s">
         <img class="img__img img__color home__img" src="img/png.com.png" alt="Ai"/>
-
-    <div class="home__data wow pulse" data-wow-duration="3s">
-        <h1 class="home__title">Time.AI </h1>
-    <p class="home__description">Time.AI is a proud supporter of Open Robotics, ROS and ROSCon, the Eclipse Foundation, as well as Silicon Valley Robotics.</p>
- <a href="#about" class="button">Get Started</a>  
+</div>
+    <div class="home__data" >
+        <h1 data-text="Time.AI" class="home__title wow rotateIn" data-wow-duration="4s" data-wow-delay="2s">Time.AI </h1>
+        <div class="wow rollIn" data-wow-duration="3s">
+    <p class="home__description">We have<br><span class="fast wow rubberBand" data-wow-duration="3s">Fast work</span> <br> Hight quality<br> Flexible team</p>
+    <marquee behavior="" direction="">
+      Do you want to nerd out on Time.AI,
+      take a deep dive below</marquee
+    >
+  </div>
+ <a href="#about" class="button wow rotateInUpLeft" data-wow-duration="4s">Get Started</a>  
 </div>
 </div>
 </section>
 
 <!--=======ABOUT===== -->
-<section class="about section container wow fadeInLeft" data-wow-duration="6s" id="about">
-  <div class="about__container grid wow fadeInRight">
-    <div class="about__data wow fadeInUp" data-wow-delay="1.2s">
-        <h2 class="section__title-center  wow fadeInBottomLeft" data-wow-duration="6s"> Find Out A Little More <br>About Us</h2>
-        <p class="about__description" >Time.AI is a global company headquartere, cairo, developing breakthrough safe, certified, developer-friendly, and scalable software for mobility systems.</p>
+<section class="about section container" id="about">
+  <div class="about__container grid">
+    <div class="about__data">
+        <h2 class="section__title-center  wow rotateInDownLeft" data-wow-duration="6s"> Find Out A Little More <br>About Us</h2>
+        <p class="about__description wow rollIn" data-wow-duration="6s" >We are a startup company working to help in the field of artificial intelligence and future technology
+          We are working to provide machines with a huge amount of data to better understand the surrounding environment.</p>
     </div>
+    <div class="wow flipInY" data-wow-duration="6s">
     <svg class="img__img img__color" viewBox="0 0 312 236" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0)">
         <path class="img__blob" fill-rule="evenodd" clip-rule="evenodd" d="M146.137 4.22643C177.748 -2.97581 206.274 23.1576 229.992 40.5258C251.017 55.9222 262.978 75.8309 272.499 96.7598C282.192 118.066 300.281 142.538 285.25 161.993C269.962 181.783 230.296 177.103 202.881 186.874C182.644 194.086 167.895 207.639 146.137 211.573C119.351 216.416 86.2133 225.465 65.5354 211.707C44.5361 197.736 61.8497 170.746 54.1954 150.402C47.0089 131.301 13.4763 116.078 22.5437 97.4402C31.6999 78.6197 73.623 86.0355 92.3992 71.8745C117.647 52.8331 111.996 12.005 146.137 4.22643Z"/>
@@ -237,32 +246,32 @@
         </clipPath>
         </defs>
     </svg>
-    
+  </div>
   </div>
 </section>
 <!--=======security===== -->
-  <section class="security section container wow fadeInLeft" data-wow-duration="6s">
-  <div class="security__container grid wow fadeInRight">
+  <section class="security section container">
+  <div class="security__container grid">
     <div class="securityy__data">
-        <h2 class="section__title-center">Time.OS
-          An end-to-end operating system for mobility, smart machines and IoT.</h2>
-        <p class="security__description" >Time.OS abstracts complexity of underlying hardware,
-          middleware, kernel, interfaces, and drivers into simple to use,
-          robust, reliable, safe, secure APIs.</p>
+        <h2 class="section__title-center wow rotateInDownLeft" data-wow-duration="6s">The relationship between humans and artificial intelligence.</h2>
+        <p class="security__description wow rollIn" data-wow-duration="6s" >There has become a close and mutual relationship between man and artificial intelligence.... man needs artificial intelligence to make his life easier and easier... On the other hand, artificial intelligence needs a man to provide him with data..
+          We are here to flesh out this relationship by providing AI with lots of data to better understand what is going on around it and perform its tasks.</p>
     </div>
+    <div class="wow flipInY" data-wow-duration="6s">
     <img src="img/pngwing.com.png" alt="Ai"/>
-    
+  </div>
   </div>
 </section>
 
-  <section class="security section container  wow fadeInLeft" data-wow-duration="6s" >
+  <section class="security section container ">
   <div class="security__data">
-    <h2 class="section__title-center"> What we do</h2>
-    <p class="security__description" >We work at the intersection of embedded software, robotics algorithms, modern software engineering and functional safety to enable software-defined mobility systems. </p>
+    <h2 class="section__title-center  wow flip" data-wow-duration="6s"> What we do</h2>
+    <p class="security__description  wow bounceInUp" data-wow-duration="6s" >We work at the intersection of embedded software, robotics algorithms, modern software engineering and functional safety to enable software-defined mobility systems. </p>
 </div>
 <br>
+<div class="wow bounceInUp" data-wow-duration="6s">
 <video src="img/Time.AI - Products.mp4" controls autoplay muted loop width="100%"></video>
-
+</div>
 </div>
 </section>
 
@@ -271,47 +280,60 @@
   <section class="services section container" id="services" >
 <h2 class="section__title">Our Services We<br> Offer</h2>
  <div class="services__container grid">
-<div class="services__data wow fadeInLeft" data-wow-duration="3s">
+<div class="services__data wow rotateInUpLeft" data-wow-duration="3s">
 
   <img src="img/Image Annotation/Image Annotation.jpg" alt="artificial intelligence" />
   <h3 class="services__subtitle">Image Annotation</h3>
   <p> Optimize 2D Detection And Labelling With Bounding Boxes.</p>
  <div>
-    <a href="product.html" class="button">Read More</a>
+    <a href="serviceone.html" class="button">Read More</a>
  </div> 
 </div>
 
 
 
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+  <div class="services__data wow rotateInUpLeft" data-wow-duration="3s">
 
   <img src="img/media-creation-lab-podcast.jpg" alt="artificial intelligence" />
   <h3 class="services__subtitle">Audio Rating</h3>
   <p>Evaluate audio clips and determine their quality</p>
  <div>
-    <a href="product.html" class="button ">Read More</a>
+    <a href="servicetwo.html" class="button ">Read More</a>
  </div> 
 </div>
 
-<div class="services__data wow fadeInLeft" data-wow-duration="3s">
+<div class="services__data wow rotateInUpLeft" data-wow-duration="3s">
     
     <img src="img/Video Annotation/Video Annotation.jpg" alt="artificial intelligence" />
     <h3 class="services__subtitle">Video Annotation</h3>
-    <p> Track objects in a video by drawing the specified shape for each label </p>
+    <p> Track objects in a video by...</p>
    <div>
-      <a href="product.html" class="button ">Read More</a>
+      <a href="service3.html" class="button ">Read More</a>
    </div> 
   </div>
 
   
 
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+  <div class="services__data wow rollIn" data-wow-duration="3s">
  
     <img src="img/translation/translate-1820325.png" alt="artificial intelligence" />
     <h3 class="services__subtitle">Translation</h3>
-    <p>convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue </p>
+    <p>convert written material from one or ....
+    </p>
    <div>
-      <a href="product.html" class="button ">Read More</a>
+      <a href="service4.html" class="button ">Read More</a>
+   </div> 
+  </div>
+
+
+
+  <div class="services__data wow rollIn" data-wow-duration="3s">
+   
+    <img src="img/Transcription/Transcription.jpg" height="100" alt="artificial intelligence" />
+    <h3 class="services__subtitle">Transcription</h3>
+    <p>Transcribing entails listening to recorded audio (or video)...</p>
+   <div>
+      <a href="service5.html" class="button">Read More</a>
    </div> 
   </div>
 
@@ -320,98 +342,89 @@
   
 
 
-
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
-    
-    <img src="img/Image Segmentation/Image Segmentation (1).png" alt="artificial intelligence" />
-    <h3 class="services__subtitle">Image Segmentation</h3>
-    <p> Categorize Image Elements, Pixel by Pixel. </p>
-   <div>
-    <br>
-    <br>
-      <a href="product.html" class="button">Read More</a>
-   </div> 
-  </div>
-
-
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+  <div class="services__data wow rollIn" data-wow-duration="3s">
  
     <img src="img/istockphoto-635926346-612x612.jpg" alt="artificial intelligence" />
     <h3 class="services__subtitle">Audio Recording</h3>
-    <p>We will record any audio phrases you need</p>
+    <p>We will record any audio...</p>
    <div>
     <br>
-    <br>
-    <br>
+    
    
-      <a href="product.html" class="button ">Read More</a>
+      <a href="sevice6.html" class="button ">Read More</a>
    </div> 
   </div>
 
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+ 
+  
+  <div class="services__data wow bounceInUp" data-wow-duration="3s">
+   
+    <img src="img/categorization/categorization.png" alt="artificial intelligence" />
+    <h3 class="services__subtitle">Categorization</h3>
+    <p> Categorization is the act... </p>
+   <div>
+      <a href="service7.html" class="button">Read More</a>
+   </div> 
+  </div>
+
+
+  <div class="services__data wow bounceInUp" data-wow-duration="3s">
+    
+    <img src="img/Text Highlighing/Text Highlighing.png" alt="artificial intelligence" />
+    <h3 class="services__subtitle">Text Highlighing</h3>
+    <p> Highlight one piece of text...</p>
+   <div>
+    <br>
+    <br>
+      <a href="service8.html" class="button ">Read More</a>
+   </div> 
+  </div>
+
+
+  <div class="services__data wow bounceInUp" data-wow-duration="3s">
+    
+    <img src="img/Image Segmentation/Image Segmentation (1).png" alt="artificial intelligence" />
+    <h3 class="services__subtitle">Image Segmentation</h3>
+    <p> Categorize Image Elements... </p>
+   <div>
+    <br>
+    <br>
+      <a href="service9.html" class="button">Read More</a>
+   </div> 
+  </div>
+
+
+  
+
+  <div class="services__data wow hinge" data-wow-duration="3s">
    
     <img src="img/lidar Annotation/lidar Annotation.gif" alt="artificial intelligence" />
     <h3 class="services__subtitle">Lidar Annotation</h3>
-    <p> With an accurate LiDAR Annotation process, autonomous vehicles understand the environment more accurately & precisely </p>
+    <p> With an accurate LiDAR Annotation process... </p>
    <div>
-      <a href="product.html"href="#" class="button">Read More</a>
+      <a href="service10.html"href="#" class="button">Read More</a>
    </div> 
   </div>
 
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+  <div class="services__data wow hinge" data-wow-duration="3s">
  
     <img src="img/lidar Segmentation/lidar Segmentation.jpg" alt="artificial intelligence" />
     <h3 class="services__subtitle">Lidar Segmentation</h3>
     <p> Paint the points in a 3D lidar scene </p>
    <div>
-      <a href="product.html" class="button ">Read More</a>
+      <a href="service11.html" class="button ">Read More</a>
    </div> 
   </div>
 
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
+  <div class="services__data wow hinge" data-wow-duration="3s">
 
     <img src="img/Polygon Annotation/Polygon Annotation.jpg" alt="artificial intelligence" />
     <h3 class="services__subtitle">Polygon Annotation</h3>
-    <p> Increase AI Accuracy Through Precision Object Identification </p>
+    <p> Increase AI Accuracy Through... </p>
    <div>
-      <a href="product.html" class="button">Read More</a>
+      <a href="service12.html" class="button">Read More</a>
    </div> 
   </div>
-  
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
-   
-    <img src="img/categorization/categorization.png" alt="artificial intelligence" />
-    <h3 class="services__subtitle">Categorization</h3>
-    <p> Categorization is the act of sorting and organizing things according to group, class, or, as you might expect </p>
-   <div>
-      <a href="product.html" class="button">Read More</a>
-   </div> 
-  </div>
-
-
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
-    
-    <img src="img/Text Highlighing/Text Highlighing.png" alt="artificial intelligence" />
-    <h3 class="services__subtitle">Text Highlighing</h3>
-    <p> Highlight one piece of text · Select the text that you want to highlight</p>
-   <div>
-    <br>
-    <br>
-      <a href="product.html" class="button ">Read More</a>
-   </div> 
-  </div>
-
-  <div class="services__data wow fadeInLeft" data-wow-duration="3s">
-   
-    <img src="img/Transcription/about22.webp" height="100" alt="artificial intelligence" />
-    <h3 class="services__subtitle">Transcription</h3>
-    <p>Transcribing entails listening to recorded audio (or video) and typing what you hear word-for-word. The audio files are varied and can include focus groups for market research, interviews, meetings, phone calls, zoom calls etc.</p>
-   <div>
-      <a href="product.html" class="button">Read More</a>
-   </div> 
-  </div>
-
-
  
 
 

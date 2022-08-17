@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Time</title>
+<link rel="stylesheet" href="./scss/layout/_layout.scss"/>
+  <link rel="stylesheet" href="./dist/css/animate.css"/>
+<link rel="stylesheet" href="dist/css/main.css" />
+
+<!--Font awesome-->
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+ <!--HEADER-->
+ <header class="header" id="header">
+    <nav class="nav container  wow fadeInLeft" data-wow-duration="2s">
+        <a href="#" class="nav__logo wow fadeInDownBig" data-wow-duration="2s">Time.<span>AI</span></a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list  animate__animated animate__flipInX" data-wow-duration="6s">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link active-link">Home</a>
+                </li>
+                <li>
+                    <a href="product.html" class="nav__link">How it work
+                    </a>
+                
+                </li>
+                <li class="nav__item">
+                    <a href="contact.html" class="nav__link ">Contact us</a>
+                </li>
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+  
+</nav>
+ </header>
+
+ <div class="landing section ">
+    <div class="container">
+    <div class="text wow rotateInUpLeft" data-wow-duration="3s">
+    <h4>Lidar Annotation.</h4>
+      <p> Autonomous vehicles rely heavily on input data to make driving decisions. Logically, the more detailed the data, the better (and, importantly, safer) the decisions made by the vehicle. While modern cameras can capture very detailed representations of the world, the output is still in 2D, which isn’t ideal as it limits the information that we can feed to the neural networks operating the vehicle, which in turn means they have to learn to make certain assumptions about the 3D world. At the same time, though, cameras are limited in their capacity to capture information. For example, the rain may make the image almost useless while lidar will still capture information. So, cameras might not work in all environments or circumstances. Since autonomous vehicles are a particularly risky and high-impact use case of neural networks, we need to make sure that the networks we build are as robust as possible, and it all starts with the data. Ideally, we want our network to get 3D data as an input since it needs to make predictions about the 3D world. This is where LiDAR comes in.</p>
+    </div>
+    <div class="image wow bounceInUp" data-wow-duration="6s">
+        <img src="img/lidar Annotation/lidar Annotation.jpg" alt="ai" width="300"/>
+    </div>
+ </div>
+
+</div>
+
+<!--======== CONTACT US ======-->
+<section class="contact section container wow fadeInLeft" data-wow-duration="6s" id="contact">
+    <div class="contact__container grid">
+        <div class="contact__content">
+            <h2 class="section__title-center">Contact Us From <br>Here </h2>
+        <P class="contact__description">You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.</P>
+        </div>
+        <ul class="contact__content grid">
+            <li class="contact__address">Telephone: <span class="contact__information"> 0109384722</span></li>
+            <li class="contact__address">Email: <span class="contact__information"> moALi09@gmail.com</span></li>
+            <li class="contact__address">Location: <span class="contact__information"> Egypt - cairo </span></li>
+        </ul>
+        <div class="contact__content wow fadeInLeft" data-wow-duration="6s">
+            <a href="contact.html" class="button">Contact Us</a>
+        </div>
+    </div>
+    </section>
+ <script src="js/wow.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
